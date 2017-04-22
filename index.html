@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Formulario</title>
+	</head>
+	<body>
+		<div align="center">
+			<h1>Formulario de datos</h1>
+			<form action=""> 
+				<p>
+					<label for="nombre">Nombre:</label><br>
+					<input type="text" name="nombre" id="nombre" required/>
+				</p>
+				<p>
+					<label for="apellido">Apellido:</label><br>
+					<input type="text" name="apellido" id="apellido" required/>
+				</p>
+				<p>
+					<label for="telefono">Teléfono:</label><br>
+					<input type="tel" name="telefono" id="telefono" pattern="[0-9]{9}" required/>
+				</p>
+				<p>Escoge tu carro para continuar</p>
+				<select name="carro" required>
+					<option value="">None</option>
+					<option value="volvo">Volvo</option>
+					<option value="saab">Saab</option>
+					<option value="mercedez">Mercedez</option>
+					<option value="audi">Audi</option>
+				</select>
+				<p>
+					<label for="correo">Email:</label><br>
+					<input type="email" name="correo" id="correo" required/>
+				</p>
+				<p>
+					<label for="pw">Crea tu contraseña</label><br>
+					<input type="password" name="pw" id="pw" pattern=".{6,}" title="6 o más caracteres" required/>
+				</p>
+				<p>
+					<input type="submit" name="" value="send">
+				</p>
+			</form>
+		</div>
+	</body>
+</html>
