@@ -1,0 +1,29 @@
+body{
+	font-family: sans-serif;
+	color: #71292A;
+	background-color: #D6BB7A;
+}
+
+input, select{
+	background-color: #B94D59;
+	opacity: .3;
+	border: 1px solid #71292A;
+	border-radius: 5px;
+}
+
+select option{
+	color: #71292A;
+	background-color: rgb(205, 153, 112);
+}
+
+input[type="submit"]{
+	color: whitesmoke;
+	background-color: #B94D59;
+	opacity: 1;
+	border-radius: 5px;
+	padding: .5em 1em;
+}
+input[type="submit"]:hover{
+	background-color: #71292A;
+	opacity: 1;
+}
